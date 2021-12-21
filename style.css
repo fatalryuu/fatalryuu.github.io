@@ -258,7 +258,7 @@
 /* About Section */
 .main {
     background-color: #131313;
-    padding: 4rem 0;
+    padding: 10rem 0;
 }
 
 .main__container {
@@ -308,6 +308,7 @@
 }
 
 .main__btn {
+    color: white;
     font-size: 1.8rem;
     background: #8e0000;
     background: -webkit-linear-gradient(to right, #ff0000, #8e0000);
@@ -372,8 +373,8 @@
 #card-2 {
     margin: 10px;
     padding: 20px;
-    height: 896px;
-    width: 700px;
+    height: 515px;
+    width: 660px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -502,11 +503,12 @@
     justify-content: center;
 }
 
-.centered {
+.centered{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-size: 100%;
 }
 
 .services__card h2 {
@@ -526,7 +528,7 @@
 }
 
 .services__card button {
-    color: #fff;
+    color: #ffffff;
     padding: 14px 24px;
     border: none;
     outline: none;
