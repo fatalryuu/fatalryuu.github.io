@@ -17,7 +17,7 @@ const highlightMenu = () => {
     const servicesMenu = document.querySelector('#services-page');
     let scrollPos = window.scrollY;
 
-    if (window.innerWidth > 960 && scrollPos < 897) {
+    if (window.innerWidth > 960 && scrollPos < 700) {
         homeMenu.classList.add('highlight');
         aboutMenu.classList.remove('highlight');
         return;
@@ -32,7 +32,7 @@ const highlightMenu = () => {
         return;
     }
 
-    if ((elem && window.innerWIdth < 960 && scrollPos < 897) || elem) {
+    if ((elem && window.innerWidth < 960 && scrollPos < 897) || elem) {
         elem.classList.remove('highlight');
     }
 };
