@@ -547,6 +547,30 @@
     cursor: pointer;
 }
 
+#see {
+    padding-bottom: 20px;
+}
+
+.span {
+    padding: 17.5px;
+}
+
+.sign_up__btn {
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+}
+
+.sign_up__btn span {
+    color: white;
+    background: linear-gradient(to right, #ff0000, #8e0000) no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+    display: block;
+    height: 73px;
+    width: 243.13px;
+}
+
 @media screen and (max-width: 1300px) {
     .services__wrapper {
         grid-template-columns: 1fr 1fr;
